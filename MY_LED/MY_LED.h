@@ -7,8 +7,8 @@
 extern "C" {
 #endif
 
-void led_turn(int ledPin);
-
+void led_turnOn(int ledPin);
+void led_turnOff(int ledPin);
 #ifdef __cplusplus
 }
 #endif
